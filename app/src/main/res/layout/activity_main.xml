@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/re"
+    tools:context="myapplication.jiyun.com.car.MainActivity">
+    <RelativeLayout
+        android:id="@+id/rec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="#00000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="报价"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:background="#ee4000"
+            android:id="@+id/text"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="领动2016款  1.6L 自动智炫 青春型"
+        android:textSize="20dp"
+        android:layout_below="@+id/rec"/>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LE4TG4DBXFl037781"
+        android:textSize="15dp"
+        android:layout_below="@+id/text2"/>
+    <TextView
+        android:id="@+id/te"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                  "
+        android:layout_below="@+id/text3"/>
+     <RelativeLayout
+         android:layout_below="@+id/te"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/rec2">
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/button1"
+             android:background="#00000000"
+             android:text="  空气滤芯"
+             android:textSize="20dp"
+             android:gravity="center_vertical"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="未报价 >  "
+             android:layout_centerVertical="true"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentEnd="true" />
+
+     </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/rec2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rec3">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:background="#00000000"
+            android:text="  空调滤芯"
+            android:textSize="20dp"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未报价 >  "
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/rec3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rec4">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:background="#00000000"
+            android:text="  机油滤芯"
+            android:textSize="20dp"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未报价 >  "
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认报价"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ee4000"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>
